@@ -1,20 +1,60 @@
 {
   "portfolio": {
+    "logo": "Daulet A.",
+    "initials": "DA",
     "badge": "Portfolio",
     "name": "Daulet Akhmadiev",
     "role": "4th-year student",
     "group": "Group 23-MK-1",
-    "projectsTitle": "Projects",
-    "projectsSoon": "My projects will appear here soon",
+    "intro": "Data Analysis and a bit of fullstack",
+    "github": "GitHub",
+    "telegram": "Telegram",
+    "spotify": "Spotify",
+    "nav": {
+      "skills": "Skills",
+      "projects": "Projects",
+      "hobbies": "Hobbies",
+      "contacts": "Contacts"
+    },
+    "skillGroups": {
+      "languages": "Languages",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Databases",
+      "tools": "Tools"
+    },
     "projects": {
       "vkoMonitoring": {
         "title": "VKO Monitoring",
-        "description": "Internet quality monitoring for schools: a background agent on school computers measures speed, ping, jitter and packet loss, while a web dashboard shows schools on a map, incidents and analytics"
+        "description": "Internet quality monitoring for schools: a background agent on school computers measures speed, ping, jitter and packet loss, while a web dashboard shows schools on a map, incidents and analytics."
+      },
+      "calorieTracker": {
+        "title": "Calorie Tracker",
+        "description": "A calorie-tracking Telegram bot that recognizes food from photos using the LLaVA model running locally via Ollama."
+      },
+      "f1Tableau": {
+        "title": "F1 Data Viz",
+        "description": "A fully interactive Tableau project visualizing and analyzing Formula 1 data, built during a visiting lecturer's stay from Malaysia."
       }
     },
     "openRepo": "Open on GitHub",
-    "contactsTitle": "Contacts",
-    "telegram": "Message on Telegram",
+    "noRepo": "Tableau project — no public repository",
+    "hobbies": {
+      "f1": {
+        "title": "Formula 1",
+        "description": "I follow the races and love digging into the data."
+      },
+      "football": {
+        "title": "Football",
+        "description": "My second big passion after Formula 1."
+      },
+      "music": {
+        "title": "Music",
+        "description": "See what's in my headphones right now on Spotify."
+      }
+    },
+    "contactsText": "The easiest way to reach me is Telegram.",
+    "footer": "© 2026 Daulet Akhmadiev · 23-MK-1",
     "toggleTheme": "Toggle theme",
     "language": "Language"
   },

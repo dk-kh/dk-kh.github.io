@@ -1,20 +1,60 @@
 {
   "portfolio": {
+    "logo": "Даулет А.",
+    "initials": "ДА",
     "badge": "Портфолио",
     "name": "Ахмадиев Даулет Аубакерович",
     "role": "Студент 4 курса",
     "group": "Группа 23-МК-1",
-    "projectsTitle": "Проекты",
-    "projectsSoon": "Скоро здесь появятся мои проекты",
+    "intro": "Data Analysis и немного fullstack",
+    "github": "GitHub",
+    "telegram": "Telegram",
+    "spotify": "Spotify",
+    "nav": {
+      "skills": "Навыки",
+      "projects": "Проекты",
+      "hobbies": "Увлечения",
+      "contacts": "Контакты"
+    },
+    "skillGroups": {
+      "languages": "Языки",
+      "frontend": "Frontend",
+      "backend": "Backend",
+      "databases": "Базы данных",
+      "tools": "Инструменты"
+    },
     "projects": {
       "vkoMonitoring": {
         "title": "VKO Monitoring",
-        "description": "Система мониторинга качества интернета в школах: фоновый агент на компьютерах замеряет скорость, пинг, джиттер и потери пакетов, а веб-панель показывает школы на карте, инциденты и аналитику"
+        "description": "Система мониторинга качества интернета в школах: фоновый агент на компьютерах замеряет скорость, пинг, джиттер и потери пакетов, а веб-панель показывает школы на карте, инциденты и аналитику."
+      },
+      "calorieTracker": {
+        "title": "Calorie Tracker",
+        "description": "Telegram-бот для учёта калорий: распознаёт еду по фотографии с помощью нейросети LLaVA, запущенной локально через Ollama."
+      },
+      "f1Tableau": {
+        "title": "F1 Data Viz",
+        "description": "Полностью интерактивный проект в Tableau: визуализация и анализ данных Формулы-1. Сделан в рамках приезда преподавателя из Малайзии."
       }
     },
     "openRepo": "Открыть на GitHub",
-    "contactsTitle": "Контакты",
-    "telegram": "Написать в Telegram",
+    "noRepo": "Проект в Tableau — без публичного репозитория",
+    "hobbies": {
+      "f1": {
+        "title": "Формула-1",
+        "description": "Слежу за гонками и люблю копаться в данных."
+      },
+      "football": {
+        "title": "Футбол",
+        "description": "Второе большое увлечение после Формулы-1."
+      },
+      "music": {
+        "title": "Музыка",
+        "description": "Что у меня сейчас в наушниках — смотрите в Spotify."
+      }
+    },
+    "contactsText": "Проще всего написать в Telegram.",
+    "footer": "© 2026 Ахмадиев Даулет · 23-МК-1",
     "toggleTheme": "Сменить тему",
     "language": "Язык"
   },
@@ -387,7 +427,9 @@
       "copyright": "2026 © Создано с ❤️ и 😺, без ☕ и 💤",
       "author": "Автор: DavDev"
     },
-    "visitorCounter": { "liveVisits": "Посещения в реальном времени" },
+    "visitorCounter": {
+      "liveVisits": "Посещения в реальном времени"
+    },
     "availability": {
       "readyFlapWords": ["Взлетаем?", "Взлетаем.", "Взлетаем?"],
       "tornFlapWords": ["Выкинут!", "Брошен!", "Выкинут!"],
