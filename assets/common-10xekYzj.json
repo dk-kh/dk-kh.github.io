@@ -6,6 +6,13 @@
     "group": "Group 23-MK-1",
     "projectsTitle": "Projects",
     "projectsSoon": "My projects will appear here soon",
+    "projects": {
+      "vkoMonitoring": {
+        "title": "VKO Monitoring",
+        "description": "Internet quality monitoring for schools: a background agent on school computers measures speed, ping, jitter and packet loss, while a web dashboard shows schools on a map, incidents and analytics"
+      }
+    },
+    "openRepo": "Open on GitHub",
     "contactsTitle": "Contacts",
     "telegram": "Message on Telegram",
     "toggleTheme": "Toggle theme",
